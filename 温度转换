@@ -1,4 +1,4 @@
-'''
+```
 #TempConvert.py  
 TempStr = input("请输入带符号的温度值：")
 if TempStr[-1] in ["F","f"]:
@@ -9,4 +9,4 @@ elif TempStr[-1] in ["C","c"]:
 	print("转换后的温度值{:.2f}F".format(F))
 else:
 	print("输入格式错误")
-'''
+```
